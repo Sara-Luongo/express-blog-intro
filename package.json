@@ -4,12 +4,15 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "start": "script.js",
-    "watch": "script.js"
+    "start": "node --env-file=.env scripts.js",
+    "watch": "scripts.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.33.2",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
