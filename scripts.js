@@ -42,6 +42,10 @@ app.get('/', (request, response) => {
     )
 })
 
+app.get('/bacheca', (request, response) => {
+    response.json(posts)
+})
+
 
 app.listen(CONST_PORTA, (error) => {
     if (error) {
